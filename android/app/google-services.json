@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "496695234100",
+    "project_id": "proje-ce4a3",
+    "storage_bucket": "proje-ce4a3.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:496695234100:android:25970b262ee334cc1a0461",
+        "android_client_info": {
+          "package_name": "com.uu.book_project"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA8o2mGptx26fpgffCReby8lAi7NgrTesk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

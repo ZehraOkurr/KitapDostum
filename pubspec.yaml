@@ -1,0 +1,73 @@
+name: book_project
+description: "KitapDostum: Google Books API ve Firebase destekli kitap takip uygulaması."
+publish_to: 'none' 
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  # Standart İkonlar
+  cupertino_icons: ^1.0.8
+  lottie: ^2.7.0
+
+  # --- FIREBASE (Backend) ---
+  firebase_core: ^2.27.0
+  firebase_auth: ^4.17.8
+  cloud_firestore: ^4.15.8
+  firebase_storage: ^11.6.0   # YENİ EKLENDİ (Resim Yükleme İçin)
+
+  # --- İNTERNET & VERİ ---
+  http: ^1.1.0
+  url_launcher: ^6.2.2
+  shared_preferences: ^2.2.2  # YENİ EKLENDİ (Timer ve Ayarları Telefonda Tutmak İçin)
+  provider: ^6.1.1  # YENİ: Timer'ı her sayfada göstermek için şart!
+
+  # --- GÖRSEL & UI ---
+  google_fonts: ^6.1.0
+  cached_network_image: ^3.3.0
+  percent_indicator: ^4.2.3   # Çubuk Grafikler
+  fl_chart: ^0.66.0           # YENİ EKLENDİ (Pasta Grafiği İçin)
+  image_picker: ^1.0.7        # YENİ EKLENDİ (Galeriden Resim Seçmek İçin)
+  flutter_rating_bar: ^4.0.1
+  mobile_scanner: ^7.1.4
+  sqflite: ^2.4.2
+  
+
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^2.0.0
+  flutter_launcher_icons: ^0.13.1
+  flutter_native_splash: ^2.3.7
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/images/
+
+
+# --- İKON AYARLARI ---
+flutter_launcher_icons:
+  android: "launcher_icon"
+  ios: true
+  image_path: "assets/images/icon.jpeg" 
+  min_sdk_android: 21
+  adaptive_icon_background: "#6D5636" 
+  adaptive_icon_foreground: "assets/images/icon.jpeg"
+
+flutter_native_splash:
+  color: "#6D5636"
+  image: assets/images/icon.jpeg
+  
+  android_12:
+    image: assets/images/icon.jpeg
+    icon_background_color: "#6D5636"
+  
+ 
